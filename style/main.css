@@ -1,7 +1,44 @@
+@font-face {
+    font-family: 'SpaceMono Nerd Font Mono';
+    src: url('/fonts/SpaceMonoNFM-Bold.woff2') format('woff2'),
+        url('/fonts/SpaceMonoNFM-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SpaceMono Nerd Font Mono';
+    src: url('/fonts/SpaceMonoNFM-BoldItalic.woff2') format('woff2'),
+        url('/fonts/SpaceMonoNFM-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SpaceMono Nerd Font Mono';
+    src: url('/fonts/SpaceMonoNFM-Italic.woff2') format('woff2'),
+        url('/fonts/SpaceMonoNFM-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SpaceMono Nerd Font Mono';
+    src: url('/fonts/SpaceMonoNFM.woff2') format('woff2'),
+        url('/fonts/SpaceMonoNFM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 * {
   text-align: center;
   background-color: #202020;
   color:#e9e9e9;
+  font-family: "SpaceMono Nerd Font Mono";
 }
 
 p {
@@ -9,4 +46,33 @@ p {
   justify-content: center;
   align-items: center;
   margin: auto;
+}
+
+#armourhud {
+  border-color: #c9b590;
+  border-style: solid;
+  padding: 1rem;
+  width: fit-content;
+  margin: auto;
+}
+
+#potatoclient {
+  border-color: #b6df90;
+  border-style: solid;
+  padding: 1rem;
+  width: fit-content;
+  margin: auto;
+}
+
+#macutils {
+  border-color: #90dfd9;
+  border-style: solid;
+  padding: 1rem;
+  width: fit-content;
+  margin: auto;
+}
+
+#toggleMods {
+  scale: 1.5;
+  cursor: pointer;
 }
