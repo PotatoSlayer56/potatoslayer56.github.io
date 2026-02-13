@@ -76,3 +76,16 @@ p {
   scale: 1.5;
   cursor: pointer;
 }
+
+#shapeDrawer {
+  border-color: #81f574;
+  border-style: solid;
+  padding: 1rem;
+  width: fit-content;
+  margin: auto;
+}
+
+#togglePythonProjects {
+  scale: 1.5;
+  cursor: pointer;
+}
